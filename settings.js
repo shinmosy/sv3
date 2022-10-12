@@ -4,8 +4,7 @@ const  { indonesia, english, spanyol} = require(`./language`)
 
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
-	alfa: 'https://alphabot-api.herokuapp.com',
- //apabila link api eror, segera laporkan ke owner
+	alfa: 'https://alphabot-api.herokuapp.com', //apabila link api eror, segera laporkan ke owner
 }
 
 // Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
@@ -16,7 +15,7 @@ global.APIKeys = {
 // setting 
 global.autoread = true // auto read message
 global.autobio = true 
-global.userRegister = true
+global.userRegister = true 
 global.autoblok212 = true //ubah jadi true biar nmr 212 di blok sama bot
 
 //language
@@ -27,8 +26,8 @@ global.language = indonesia  //change indonesia to english if you don't understa
 
 // Other
 // Other
-global.botname = "WannBotzོ" //namabot kalian
-global.ownername= "Wannzx" //nama kalian
+global.botname = "𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌D" //namabot kalian
+global.ownername= "𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝" //nama kalian
 global.myweb ="https://Instagram.com/wannzx_133" //bebas asal jan hapus
 global.youtube = "https://Instagram.com/wannzx_133" //bebas asal jan hapus
 global.myweb2 = "https://Instagram.com/wannzx_133" //bebas
@@ -38,13 +37,13 @@ global.timezone = 'Asia/Jakarta' //  timezone wib
 global.premium = ['6281265970249'] //premium user
 global.owner = ["6281265970249","6283870480221"] //ganti agar fitur owner bisa di gunakan
 global.ownernomer = "6281265970249" // nomor wa kalian
-global.ownernomerr = "+6281265970249" //nmr wa kalian
+global.ownernomerr = "6281265970249" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
-global.thumbGif = 'https://telegra.ph/file/304a302ca13d87250e087.mp4'
-global.packname = '© WannBotz-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh Wannzx' //sticker wm ganti nama kalian
+global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
+global.packname = 'Di Buat Olehོ' //sticker wm ubah
+global.author = '© 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
@@ -118,7 +117,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '🤗Done, Oke Desu~',
+    sukses: 'Sukses coy.\n Jan lupa follow instagram saia:https://Instagram.com/wannzx_133\n hehe🗿, Oke Brow~',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
@@ -126,7 +125,7 @@ global.mess = {
     private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
 	bot: 'Fitur Khusus Pengguna Nomor Bot',
     errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-    wait: '⏳ Sedang Di Proses',
+    wait: '▰▰▰▰▰▰▱▱ 90% 𝚠𝚊𝚒𝚝!!',
 	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
 	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
@@ -136,5 +135,5 @@ fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
 	delete require.cache[file]
-	require(file)
+	require(file) 
 })
