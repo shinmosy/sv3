@@ -1771,7 +1771,9 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+
+Mau yang udah direcode oleh owner?
+Follow instagram owner,lalu kirim bukti follow ke:wa.me/${ownernomer}
 `
 }
 exports.tos = (ownernomer) => {

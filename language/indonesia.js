@@ -10,16 +10,16 @@ exports.delstik = (a, b) =>{
 	return`List ${a} dengan key ${b} tidak ada di database`
 	}
 exports.profile = (username, m, about, pasangan, PhoneNumber, exp, min, xp, math, prefix, level, role, limit, registered, tanggal, regTime,premium, msToDate , premiumDate, now, lastclaim) =>{
-	return`📛 Nama: ${username} (@${m.sender.split`@`[0]})${about ? '\n💌 Bio: ' + about : ''}
-👨‍❤️‍👨 Status: ${pasangan ? `Berpacaran @${pasangan.split`@`[0]}` : '-' }
-#️⃣ Nomor: ${PhoneNumber('+' + m.sender.replace('@s.whatsapp.net', '')).getNumber('international')}
-🔗 Link: https://wa.me/${m.sender.split`@`[0]}
-🤷‍♂️ XP: Total ${exp} (${exp - min} / ${xp}) [ ${math <= 0 ? `Ready to *${prefix}levelup*` : `${math} XP left to levelup`} ]
-🎚️ Level: ${level}
-🎢 Role: ${role}
-📊 Limit: ${limit}
-®️ Registered: ${registered ? '✅ (' + tanggal(regTime) + ')' : '❌'}
-⛽ Premium: ${premium ? `✅\n⏰ Expired Premium : msToDate(premiumDate - now)` : '❌'}
+	return`Nama: ${username} (@${m.sender.split`@`[0]})${about ? '\n Bio: ' + about : ''}
+ Status: ${pasangan ? `Berpacaran @${pasangan.split`@`[0]}` : '-' }
+ Nomor: ${PhoneNumber('+' + m.sender.replace('@s.whatsapp.net', '')).getNumber('international')}
+Link: https://wa.me/${m.sender.split`@`[0]}
+XP: Total ${exp} (${exp - min} / ${xp}) [ ${math <= 0 ? `Ready to *${prefix}levelup*` : `${math} XP left to levelup`} ]
+️ Level: ${level}
+Role: ${role}
+ Limit: ${limit}
+ Registered: ${registered ? '✅ (' + tanggal(regTime) + ')' : '❌'}
+ Premium: ${premium ? `✅\n Expired Premium : msToDate(premiumDate - now)` : '❌'}
 🛄 Last claim: ${lastclaim > 0 ? + tanggal(lastclaim) : '-'}`
 	}
 
@@ -96,7 +96,7 @@ exports.UmurXReg = () =>{
 	return`Umur kamu terlalu tua, bukannya mati ehh malah main bot`
 	}
 exports.firstChat = (a, b, c) =>{
-	return`Selamat ${a} ${b} 🤗, saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
+	return`Selamat ${a} ${b} , saya adalah ${c} yaitu bot whatsapp. Ada yang bisa ${c} bantu?`
 	}
 exports.StartAbsen = () =>{
 	return`Mulai Absen`
@@ -521,100 +521,100 @@ exports.Addstik = (prefix, command, t) => {
     return `Reply ${t} dengan caption ${prefix + command} text\n\nExample : ${prefix + command} bot`
 }
 exports.AllFitur = () => {
-    return `\n_Semua fitur bot_`
+    return `\nSemua fitur bot`
 }
 exports.InfoMenu = () => {
-    return `\n_Mencari informasi terkini melalui bot_`
+    return `\nMencari informasi terkini melalui bot`
 }
 exports.KhususOwn = () => {
-    return `\n_Fitur khusus owner bot_`
+    return `\nFitur khusus owner bot`
 }
 exports.DataBor = () => {
-    return `\n_Menyimpan sesuatu di database bot_`
+    return `\nMenyimpan sesuatu di database bot`
 }
 exports.MenuGc = () => {
-    return `\n_Menampilkan fitur khusus group_`
+    return `\nMenampilkan fitur khusus group`
 }
 exports.MenuAni = () => {
-    return `\n_Mencari random gambar anime_`
+    return `\nMencari random gambar anime`
 }
 exports.TagMem = () => {
-    return `\n_Menandai member group_`
+    return `\nMenandai member group`
 }
 exports.StalkOrk = () => {
-    return `\n_Kepoin sosmed orang_`
+    return `\nKepoin sosmed orang`
 }
 exports.Hoja = () => {
-    return `\n_Mencari sesuatu yang gk penting_`
+    return `\nMencari sesuatu yang gk penting`
 }
 exports.CovertWi = () => {
-    return `\n_Mengkorversi sesuatu dengan bot_`
+    return `\nMengkorversi sesuatu dengan bot`
 }
 exports.AnuFoto = () => {
-    return `\n_Mengubah gambar jadi lebih menarik_`
+    return `\nMengubah gambar jadi lebih menarik`
 }
 exports.HajuStik = () => {
-    return `\n_Membuat stiker yang unik_`
+    return `\nMembuat stiker yang unik`
 }
 exports.EloDown= () => {
-    return `\n_Menampilkan fitur download_`
+    return `\nMenampilkan fitur download`
 }
 exports.StikerWibu = () => {
-    return `\n_Random stiker anime_`
+    return `\nRandom stiker anime`
 }
 exports.ImageDewasa = () => {
-    return `\n_Random image anime 18+_`
+    return `\nRandom image anime 18+`
 }
 exports.MakeLogo = () => {
-    return `\n_Untuk membuat logo menggunakan bot_`
+    return `\nUntuk membuat logo menggunakan bot`
 }
 exports.oterMenu = () => {
-    return `\n_Menu lainnya_`
+    return `\nMenu lainnya`
 }
 exports.GameBot = () => {
-    return `\n_Fitur untuk bermain dengan bot_`
+    return `\nFitur untuk bermain dengan bot`
 }
 exports.RandRik = () => {
-    return `\n_Random video tiktok_`
+    return `\nRandom video tiktok`
 }
 exports.RandCew = () => {
-    return `\n_Random gambar cewe cantik_`
+    return `\nRandom gambar cewe cantik`
 }
 exports.RamalOi = () => {
-    return `\n_Ramalan masa kini_`
+    return `\nRamalan masa kini`
 }
 exports.TeleStik= () => {
-    return `\n_Random stiker dari telegram_`
+    return `\nRandom stiker dari telegram`
 }
 exports.BuatLogoLagi = () => {
-    return `\n_Membuat logo keren dengan bot_`
+    return `\nMembuat logo keren dengan bot`
 }
 exports.SoundNih= () => {
-    return `\n_Random sound_`
+    return `\nRandom sound`
 }
 exports.KanLogoLagi = () => {
-    return `\n_Membuat logo menarik_`
+    return `\nMembuat logo menarik`
 }
 exports.TobatBro = () => {
-    return `\n_Fitur islami_`
+    return `\nFitur islami`
 }
 exports.MauJualan = () => {
-    return `\n_Fitur untuk berjualan_`
+    return `\nFitur untuk berjualan`
 }
 exports.Maustorage = () => {
-    return `\n_Fitur untuk menyimpan stiker, audio, foto dan video_`
+    return `\nFitur untuk menyimpan stiker, audio, foto dan video`
 }
 exports.MauChanger = () => {
-    return `\n_Fitur untuk mengubah suara audio / vn_`
+    return `\nFitur untuk mengubah suara audio / vn`
 }
 exports.GadaChat = () => {
-    return `\n_Fitur untuk melakukan chat random_`
+    return `\nFitur untuk melakukan chat random`
 }
 exports.SumberBot = () => {
-    return `\n_Sumber script bot ini_`
+    return `\nSumber script bot ini`
 }
 exports.Tqnya = () => {
-    return `\n_Siapa aja yang berkontribusi di dalam bot ini_`
+    return `\nSiapa aja yang berkontribusi di dalam bot ini`
 }
 exports.SetAh = () => {
     return `Mau set menu ya ?`
@@ -632,10 +632,10 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `▰▰▰▰▰▰▱▱ 90% 𝚠𝚊𝚒𝚝!!`
 }
 exports.ok = () => {
-    return `✅ Done.`
+    return `Sukses coy.\nJan lupa follow instagram saia:https://instagram.com/wannzx_133\nhehe🗿`
 }
 
 exports.err = () => {
@@ -1773,7 +1773,9 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://github.com/WannBotz/wannzx-md2
+
+Mau yang udah direcode oleh owner?
+Follow instagram owner,lalu kirim bukti follow ke:wa.me/${ownernomer}
 `
 }
 exports.tos = (ownernomer) => {
