@@ -26,24 +26,24 @@ global.language = indonesia  //change indonesia to english if you don't understa
 
 // Other
 // Other
-global.botname = "𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌D" //namabot kalian
-global.ownername= "𝐖𝐚𝐧𝐧𝐳𝐱-𝐌𝐝" //nama kalian
-global.myweb ="https://Instagram.com/wannzx_133" //bebas asal jan hapus
-global.youtube = "https://Instagram.com/wannzx_133" //bebas asal jan hapus
-global.myweb2 = "https://Instagram.com/wannzx_133" //bebas
-global.email = "mawangulo133@gmail.com" //bebas
+global.botname = "𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗4" //namabot kalian
+global.ownername= "𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗4" //nama kalian
+global.myweb ="https://Instagram.com/mo.sy._" //bebas asal jan hapus
+global.youtube = "https://Instagram.com/mo.sy._" //bebas asal jan hapus
+global.myweb2 = "https://Instagram.com/mo.sy._" //bebas
+global.email = "mosyafik.jr@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['6281265970249'] //premium user
-global.owner = ["6281265970249","6283870480221"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "6281265970249" // nomor wa kalian
-global.ownernomerr = "6281265970249" //nmr wa kalian
+global.premium = ['628981574999'] //premium user
+global.owner = ["628981574999","6285157883553"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6285157883553" // nomor wa kalian
+global.ownernomerr = "6285157883553" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
 global.packname = 'Di Buat Olehོ' //sticker wm ubah
-global.author = '© 𝐖𝐚𝐧𝐧𝐁𝐨𝐭𝐳-𝐌𝐃' //sticker wm ganti nama kalian
+global.author = '© 𝑩𝒐𝒕𝑺𝒉𝒊𝒏 𝒗4' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
