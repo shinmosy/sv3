@@ -117,7 +117,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: 'Sukses coy.\n Jan lupa follow instagram saia:https://Instagram.com/wannzx_133\n hehe🗿, Oke Brow~',
+    sukses: 'Sukses coy.\n Follow IG @mo.sy._ 🗿',
     admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
     botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
     owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
